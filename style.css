@@ -1,0 +1,141 @@
+body{
+	background-color:#ebeeee;
+
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 750px;
+}
+
+.aek_1 img ,.aek_2 img ,.aek_3 img ,.aek_4 img ,.aek_5 img, .aek_6 img{
+	max-width: 100%;
+	height: 100%;
+}
+
+.aek_1{
+	position: fixed;
+    height: 660px;
+    left: 50%;
+    margin-left: -760px;
+    top: 50%;
+    margin-top: -350px;
+    z-index: 1;
+    opacity: 0.6;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.aek_2{
+    position: fixed;
+    height: 680px;
+    left: 50%;
+    margin-left: -700px;
+    top: 50%;
+    margin-top: -360px;
+    z-index: 3;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.aek_3{
+    position: fixed;
+    height: 700px;
+    left: 50%;
+    margin-left: -640px;
+    top: 50%;
+    margin-top: -370px;
+    z-index: 6;
+    opacity: 1;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.aek_4{
+    position: fixed;
+    height: 680px;
+    left: 50%;
+    margin-left: -580px;
+    top: 50%;
+    margin-top: -360px;
+    z-index: 3;
+    opacity: 0.8;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.aek_5{
+    position: fixed;
+    height: 660px;
+    left: 50%;
+    margin-left: -520px;
+    top: 50%;
+    margin-top: -350px;
+    z-index: 1;
+    opacity: 0.6;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.aek_6{
+    position: fixed;
+    height: 700px;
+    left: 50%;
+    margin-left: -640px;
+    top: 50%;
+    margin-top: -370px;
+    z-index: 6;
+    opacity: 0;
+    box-shadow: 0px 0px 20px #000000;
+}
+
+.button_left{
+  position: fixed;
+  top: 50%;
+  margin-top:-50px;
+  left:30px;
+  z-index: 10000000001;
+  cursor: pointer;
+}
+
+.button_left :hover{
+    background-color: #ebeeee;
+}
+.button_right{
+  position: fixed;
+  top: 50%;
+  margin-top:-50px;
+  right:30px;
+  z-index: 10000000001;
+  cursor: pointer;
+}
+.button_right :hover{
+    background-color: #ebeeee;
+}
+
+.button {
+    position: fixed;
+    left: 50%;
+    margin-left: -75px;
+    bottom: 40px;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #e0c600;
+    background-color: #000000;
+    border: none;
+    border-radius: 50px;
+    z-index: 7;
+}
+
+.button:hover {
+	background-color: #e0c600;
+	color: #000000;
+}
+
+.button:active {
+  background-color: #e0c600;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
